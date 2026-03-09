@@ -1,62 +1,94 @@
-# React Todo List with Context & useReducer
+# React Todo List with Theme Toggle
 
-A simple Todo application built with **React** demonstrating:
+## Preview
 
-- `useContext` for global state management
-- `useReducer` for handling todos
-- Theme switch (dark / light mode)
-- Deleting todos directly from the list
-- Adding todos with the **Enter** key
+![TodoList Theme clair](https://github.com/user-attachments/assets/10b1e3a3-ecd1-4c6b-8146-e8808d61b528)
+![TodoList Theme sombre](https://github.com/user-attachments/assets/aa5f33e3-d98a-4b03-b5be-9ceb53caea49)
 
----
+## Description
 
-## 🚀 Features
+A clean and modern **Todo List** built with **React**, demonstrating:
 
-- Add todos using input field
-- Press **Enter** to create a new todo
-- Delete individual todos
-- Toggle between dark and light theme
-- Clean and minimal UI
+- Component-based architecture (`TodoInput`, `TodoList`, `TodoItem`)
+- Global state management with **Context + useReducer**
+- Theme toggle (light / dark) using **ThemeContext**
+- Minimalist and responsive CSS design
+- Tailwind button for modern UI feel
 
----
-
-## 🛠 Technologies Used
-
-- React
-- JavaScript
-- useReducer
-- useContext
-- CSS
+This project is designed to be **readable and understandable by recruiters** while showing practical React skills.
 
 ---
 
-## 📦 Installation
+## Features
+
+- **Add Todo**: Type a task and press Enter to add it.
+- **Delete Todo**: Remove a task by clicking the "Supprimer" button.
+- **Theme Toggle**: Switch between light and dark themes with a button.
+- **Responsive Design**: Works on desktop and mobile.
+- **Clean Code**: Components are decoupled, context manages global state.
+
+---
+
+## Tech Stack
+
+- React 18+
+- Hooks: `useState`, `useReducer`, `useContext`, `useCallback`
+- Context API for state management
+- Tailwind CSS (for button styling)
+- Plain CSS (`App.css`) for layout and theme
+
+---
+
+## Folder Structure
+
+src/
+├─ components/
+│ ├─ TodoInput.js
+│ ├─ TodoList.js
+│ └─ TodoItem.js
+├─ context/
+│ └─ TodoContext.js
+├─ App.js
+└─ App.css
+index.js
+
+---
+
+## How to Run
+
+1. Clone the repository:
 
 ```bash
-
-git clone https://github.com/atteewf/react-todolist-context.git
-cd react-todolist-context
-npm install
-npm start
-
+git clone https://github.com/atteewf/react-todo-context.git
 ```
 
----
+2. Install dependencies: `npm install`
 
-## The App runs at:
-
-- http://localhost:3000
-
+3. Start the development server: `npm start`
+   Open http://localhost:3000 in your browser.
 
 ---
 
-## 📚 Learning Purpose
+## Future Improvements
 
-This project was created to practice advanced React concepts such as:
+Add unit tests with Jest and React Testing Library
 
-- Global state management using Context API
-- Managing complex state with useReducer
-- Implementing the reducer pattern
-- Component structure and separation of concerns
-- Handling user interactions (keyboard events)
-- Theme management (light / dark mode)
+Store todos in localStorage to persist data
+
+Add edit functionality for todos
+
+Improve UI/UX with Tailwind components
+
+---
+
+## Author
+
+Atteewf
+– React Developer Portfolio Ready
+
+---
+
+## Author / Contact
+
+LinkedIn: https://www.linkedin.com/in/seb-oll-0188133a4/
+Email: ateeew@gmail.com

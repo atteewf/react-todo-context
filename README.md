@@ -88,7 +88,7 @@ Atteewf
 
 ---
 
-## Author / Contact
+## Contact
 
 LinkedIn: https://www.linkedin.com/in/seb-oll-0188133a4/
 Email: ateeew@gmail.com
